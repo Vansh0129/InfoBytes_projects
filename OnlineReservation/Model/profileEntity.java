@@ -4,31 +4,32 @@ import java.util.Objects;
 
 
 public class profileEntity   {
-    private String name = "";
+    private String User_Name = "";
     private String Password = "";
+
+
     public profileEntity(){}
-    public  profileEntity(String name, String password) {
-        this.name = name;
-        this.Password = password;
+
+
+    public profileEntity(profileEntity object) {
+        if(new profileValidator().UsernameValidator(object.User_Name) && new profileValidator().PasswordValidator(object.Password))
+        {
+            this.User_Name=object.User_Name;
+            this.Password=object.Password;
+
+        }
+        else {
+            throw new IllegalArgumentException("Invalid Credentials");
+        }
+
     }
 
-    protected boolean setprofile(String name, String password) {
-       if(new profileValidator().UsernameValidator(name) && new profileValidator().PasswordValidator(password))
-       {
-           this.name=name;
-           this.Password=password;
-           return true;
-       }
-       return false;
-
-    }            
-
-    protected profileEntity getCredential() {
-        return new profileEntity(this.name, this.Password);
+    protected profileEntity getprofile() {
+        return new profileEntity(this);
     }
 
     protected boolean ValidateCredential(String name, String password) {
-        if (Objects.equals(this.name, name) && Objects.equals(this.Password, password)) {
+        if (Objects.equals(this.User_Name, name) && Objects.equals(this.Password, password)) {
             return true;
         }
         return false;
