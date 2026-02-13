@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/InfoBytes.iml" filepath="$PROJECT_DIR$/InfoBytes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ATM Interface/src/src.iml" filepath="$PROJECT_DIR$/ATM Interface/src/src.iml" />
+    </modules>
+  </component>
+</project>

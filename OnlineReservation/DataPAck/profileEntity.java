@@ -1,0 +1,55 @@
+package OnlineReservation.DataPAck;
+import OnlineReservation.Exception.*;
+
+import java.util.Objects;
+
+
+public class profileEntity  extends Throwable {
+    private String name = "";
+    private String Password = "";
+    public profileEntity(){}
+    private profileEntity(String name, String password) {
+        this.name = name;
+        this.Password = password;
+    }
+
+    protected boolean setprofile(String name, String password) {
+        this.name = name;
+        if (password.length() < 5 || password.length() > 20) {
+//            System.out.println("Password must be between 5 to 20 length only !");
+            throw new RuntimeException("Password must be between 5 to 20 length only !");
+        }   //validate
+        boolean flag1 = false;
+        boolean flag2 = false;
+        boolean flag3 = false;
+        for (Character c : this.Password.toCharArray()) {
+            if (c >= 'A' && c <= 'Z') flag1 = true;
+            else if (Character.isDigit(c)) {
+                flag2 = true;
+            } else if (!Character.isLetterOrDigit(c)) {
+                flag3 = true;
+            }
+
+        }
+        if (flag2 && flag2 && flag3) {
+            return true;
+        } else {
+            throw new RuntimeException("Password must contain atleast one specialCharacter,Alphabet and Digit !");
+        }
+
+    }
+
+    protected profileEntity getCredential() {
+        return new profileEntity(this.name, this.Password);
+    }
+
+    protected boolean ValidateCredential(String name, String password) {
+        if (Objects.equals(this.name, name) && Objects.equals(this.Password, password)) {
+            return true;
+
+        }
+        return false;
+
+    }
+
+}
