@@ -1,14 +1,13 @@
-package OnlineReservation.DataPAck;
-import OnlineReservation.Exception.*;
+package OnlineReservation.Model;
 
 import java.util.Objects;
 
 
-public class profileEntity  extends Throwable {
+public class profileEntity   {
     private String name = "";
     private String Password = "";
     public profileEntity(){}
-    private profileEntity(String name, String password) {
+    public  profileEntity(String name, String password) {
         this.name = name;
         this.Password = password;
     }
@@ -37,7 +36,7 @@ public class profileEntity  extends Throwable {
             throw new RuntimeException("Password must contain atleast one specialCharacter,Alphabet and Digit !");
         }
 
-    }
+    }             //profile validator
 
     protected profileEntity getCredential() {
         return new profileEntity(this.name, this.Password);
@@ -46,10 +45,9 @@ public class profileEntity  extends Throwable {
     protected boolean ValidateCredential(String name, String password) {
         if (Objects.equals(this.name, name) && Objects.equals(this.Password, password)) {
             return true;
-
         }
         return false;
 
-    }
+    }   //check the password
 
 }
