@@ -70,8 +70,9 @@ This mode tests pure luck and intuition.</br>
 
 1 Clone the repository
 
-- git clone https://github.com/Vansh0129/InfoBytes_projects/NumberGuess.git
+- git clone https://github.com/Vansh0129/InfoBytes_projects.git
 - Open the project in IntelliJ / Eclipse / VS Code
+- Inside NumberGuess pakage.
 
 2 Run the main class:
 
