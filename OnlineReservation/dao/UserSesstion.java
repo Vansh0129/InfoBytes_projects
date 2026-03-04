@@ -1,10 +1,13 @@
 package OnlineReservation.dao;
 
+import OnlineReservation.Model.UserTicket;
 import OnlineReservation.Model.userInfo;
 
 public interface UserSesstion {
-     void CreateUser(userInfo e);
-     void
+     Boolean CreateUser(userInfo e);
+     Boolean CreateBooking(String username, UserTicket ticket);
+     Boolean DeleteBooking(String username,int PNR);
+
 
 
 }

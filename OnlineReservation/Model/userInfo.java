@@ -15,6 +15,7 @@ public class userInfo {
     public userInfo() {}
 
     public userInfo(String name, int age, Gender sex, String contactNo, String gmail) {
+        username=name+name.length()+(age*18)%20+contactNo.charAt(9);
         setName(name);
         setAge(age);
         setSex(sex);

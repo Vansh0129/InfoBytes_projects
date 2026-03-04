@@ -2,6 +2,6 @@ package OnlineReservation;
 
 import OnlineReservation.Model.profileEntity;
 
-public class ServiceReservation extends profileEntity {
+public class ServiceReservation {
 
 }
