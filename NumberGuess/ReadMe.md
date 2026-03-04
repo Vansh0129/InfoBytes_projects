@@ -68,14 +68,13 @@ This mode tests pure luck and intuition.</br>
 
 🚀 How to Run
 
-Clone the repository
+1 Clone the repository
 
-git clone https://github.com/your-username/number-guess-game.git
+- git clone https://github.com/Vansh0129/InfoBytes_projects/NumberGuess.git
+- Open the project in IntelliJ / Eclipse / VS Code
 
-Open the project in IntelliJ / Eclipse / VS Code
+2 Run the main class:
 
-Run the main class:
+- javaApp.java
 
-InputUi.java
-
-Enter player details and start the game.
+3 Enter player details and start the game.
