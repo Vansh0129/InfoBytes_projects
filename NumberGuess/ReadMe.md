@@ -77,5 +77,21 @@ This mode tests pure luck and intuition.</br>
 2 Run the main class:
 
 - javaApp.java
+  </br>
 
 3 Enter player details and start the game.
+ </br>
+<p align="center">
+
+<a href="https://github.com/user-attachments/assets/06b7fc58-3dcd-4b3d-8d1d-12df184877ff">
+<img width="350" src="https://github.com/user-attachments/assets/06b7fc58-3dcd-4b3d-8d1d-12df184877ff"/>
+</a>
+
+<a href="https://github.com/user-attachments/assets/67c75b20-d801-4c70-955b-a177055ff73d">
+<img width="350" src="https://github.com/user-attachments/assets/67c75b20-d801-4c70-955b-a177055ff73d"/>
+</a>
+
+</p>
+
+
+
