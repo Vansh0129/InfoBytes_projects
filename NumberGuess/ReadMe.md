@@ -1,4 +1,4 @@
-**#How the Game Works**
+**# How the Game Works**
 
 The game randomly generates a target number between 1 and 100.
 
