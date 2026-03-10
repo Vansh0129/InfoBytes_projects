@@ -48,7 +48,7 @@ cd library-management
 ```
 
 ### 2. Configure MySQL
-Create a database (optional — auto-created on run):
+Create a database:
 ```sql
 CREATE DATABASE library_db;
 ```
@@ -62,7 +62,8 @@ spring.datasource.password=YOUR_PASSWORD
 
 ### 3. Run the Application
 ```bash
-mvn spring-boot:run
+run:-
+File Name= 'LibraryManagementApplication'
 ```
 
 ---
