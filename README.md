@@ -76,8 +76,7 @@ It includes database modeling and API testing using Swagger.
 
 The database schema used in the project is represented using an **Entity Relationship Diagram (ERD)**.
 
-![ER Diagram](<img width="945" height="727" alt="image" src="https://github.com/user-attachments/assets/2d6fba4a-f88d-4206-90d7-59aaf74d061f" />
-)
+![ER Diagram](https://github.com/user-attachments/assets/2d6fba4a-f88d-4206-90d7-59aaf74d061f)
 
 ---
 
@@ -85,8 +84,7 @@ The database schema used in the project is represented using an **Entity Relatio
 
 Swagger UI is used for testing and documenting the APIs.
 
-![Swagger UI](<img width="1877" height="949" alt="image" src="https://github.com/user-attachments/assets/a8b5168d-8dee-42fd-9207-f6a53e10747b" />
-)
+![Swagger UI](https://github.com/user-attachments/assets/a8b5168d-8dee-42fd-9207-f6a53e10747b)
 
 You can access Swagger locally at:
 
