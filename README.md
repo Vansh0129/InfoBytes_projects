@@ -120,8 +120,8 @@ mvn spring-boot:run
 # 📌 Learning Goals
 
 This repository was created to practice and improve skills in Java Development:
-*Java Core
-*JAva OOPs concepts
+* Java Core
+* Java OOPs concepts
 * Backend development with Spring Boot
 * REST API design
 * Authentication and security
