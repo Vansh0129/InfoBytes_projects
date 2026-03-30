@@ -41,6 +41,9 @@ This project focuses on implementing core Java concepts and building the Swing u
 *  Different modes 
 *  Track of Previous Game to count Accuracy
 
+### Demo Video 🎥
+🔗 [Watch Demo](https://drive.google.com/file/d/1MmvvJ1mikPJBSWm-bgeE8FP1WAv4cwTQ/view?usp=sharing)
+
 ---
 
 # 🧩  Library Management System
@@ -70,6 +73,8 @@ It includes database modeling and API testing using Swagger.
 * RESTful API architecture
 * API documentation using Swagger(For Fast Lookup to all apis)
 
+### Demo Video 🎥
+🔗 [Watch Demo](https://drive.google.com/file/d/1MXCHmAjoXwEbd5vMbE3Rd0trZm588F2T/view?usp=sharing)
 ---
 
 # 🗄️ Database Design (ER Diagram)
